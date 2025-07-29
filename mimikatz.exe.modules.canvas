@@ -23,17 +23,6 @@
 			"color":"4"
 		},
 		{
-			"id":"21ed5be5c50c6c1a",
-			"type":"text",
-			"text":"# token",
-			"styleAttributes":{"textAlign":"center"},
-			"x":310,
-			"y":340,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
 			"id":"cd9c6afe9fd5610a",
 			"type":"text",
 			"text":"# crypto",
@@ -64,17 +53,6 @@
 			"y":-260,
 			"width":260,
 			"height":60
-		},
-		{
-			"id":"9591cfd08b17db42",
-			"type":"text",
-			"text":"## elevate",
-			"styleAttributes":{"shape":"pill","textAlign":"center"},
-			"x":850,
-			"y":500,
-			"width":260,
-			"height":60,
-			"color":"1"
 		},
 		{
 			"id":"3138c1f26b2dab06",
@@ -361,17 +339,6 @@
 			"color":"3"
 		},
 		{
-			"id":"f48f02ade2c64fdd",
-			"type":"text",
-			"text":"## suspend\nSuspend or resume processes",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":1650,
-			"y":60,
-			"width":340,
-			"height":100,
-			"color":"3"
-		},
-		{
 			"id":"40d57762f23e49b3",
 			"type":"text",
 			"text":"# rpc",
@@ -381,17 +348,6 @@
 			"width":260,
 			"height":60,
 			"color":"4"
-		},
-		{
-			"id":"f6d752eb10ee410a",
-			"type":"text",
-			"text":"## connect\nConnect to a remote RPC server",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":1650,
-			"y":0,
-			"width":340,
-			"height":100,
-			"color":"3"
 		},
 		{
 			"id":"906de854c1424977",
@@ -548,17 +504,6 @@
 			"color":"3"
 		},
 		{
-			"id":"1c72d2364cda4bc5",
-			"type":"text",
-			"text":"# vault",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1300,
-			"y":1020,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
 			"id":"e6b1ece2980d45a0",
 			"type":"text",
 			"text":"# dpapi",
@@ -625,17 +570,6 @@
 			"color":"4"
 		},
 		{
-			"id":"a3bff670c64841cd",
-			"type":"text",
-			"text":"## alias\nList groups and aliases",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":570,
-			"y":-1640,
-			"width":340,
-			"height":100,
-			"color":"3"
-		},
-		{
 			"id":"ad62adc6976c4965",
 			"type":"text",
 			"text":"## masterkey\nExport DPAPI master keys",
@@ -688,50 +622,6 @@
 			"y":720,
 			"width":410,
 			"height":160,
-			"color":"3"
-		},
-		{
-			"id":"f3e76379f5704dd2",
-			"type":"text",
-			"text":"# process",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-620,
-			"y":-1440,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"b1abf5e2927c4427",
-			"type":"text",
-			"text":"## list\nList running processes",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":-340,
-			"y":-1740,
-			"width":340,
-			"height":100,
-			"color":"3"
-		},
-		{
-			"id":"d672750130334b17",
-			"type":"text",
-			"text":"## run\nRun a new process",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":-910,
-			"y":-1790,
-			"width":340,
-			"height":100,
-			"color":"3"
-		},
-		{
-			"id":"337e1cf38d144e85",
-			"type":"text",
-			"text":"## server\nStart RPC control server",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":2400,
-			"y":470,
-			"width":340,
-			"height":100,
 			"color":"3"
 		},
 		{
@@ -790,12 +680,122 @@
 			"color":"3"
 		},
 		{
+			"id":"337e1cf38d144e85",
+			"type":"text",
+			"text":"## server\nStart RPC control server",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":2230,
+			"y":-230,
+			"width":340,
+			"height":100,
+			"color":"3"
+		},
+		{
+			"id":"f6d752eb10ee410a",
+			"type":"text",
+			"text":"## connect\nConnect to a remote RPC server",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":2360,
+			"y":420,
+			"width":340,
+			"height":100,
+			"color":"3"
+		},
+		{
+			"id":"f3e76379f5704dd2",
+			"type":"text",
+			"text":"# process",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-490,
+			"y":-1010,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"d672750130334b17",
+			"type":"text",
+			"text":"## run\nRun a new process",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-1190,
+			"y":-880,
+			"width":340,
+			"height":100,
+			"color":"3"
+		},
+		{
+			"id":"b1abf5e2927c4427",
+			"type":"text",
+			"text":"## list\nList running processes",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-1120,
+			"y":-1190,
+			"width":340,
+			"height":100,
+			"color":"3"
+		},
+		{
+			"id":"f48f02ade2c64fdd",
+			"type":"text",
+			"text":"## suspend\nSuspend or resume processes",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-720,
+			"y":-1440,
+			"width":340,
+			"height":100,
+			"color":"3"
+		},
+		{
+			"id":"1c72d2364cda4bc5",
+			"type":"text",
+			"text":"# vault",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1300,
+			"y":1340,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"9591cfd08b17db42",
+			"type":"text",
+			"text":"## elevate",
+			"styleAttributes":{"shape":"pill","textAlign":"center"},
+			"x":1080,
+			"y":1620,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"21ed5be5c50c6c1a",
+			"type":"text",
+			"text":"# token",
+			"styleAttributes":{"textAlign":"center"},
+			"x":80,
+			"y":520,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
 			"id":"b48adf93795e4241",
 			"type":"text",
 			"text":"## user\nDisplay users",
 			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":310,
-			"y":-1890,
+			"x":-290,
+			"y":-1800,
+			"width":340,
+			"height":100,
+			"color":"3"
+		},
+		{
+			"id":"a3bff670c64841cd",
+			"type":"text",
+			"text":"## alias\nList groups and aliases",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":270,
+			"y":-1750,
 			"width":340,
 			"height":100,
 			"color":"3"
@@ -805,8 +805,8 @@
 			"type":"text",
 			"text":"## session\nEnumerate sessions",
 			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":540,
-			"y":-1380,
+			"x":580,
+			"y":-1440,
 			"width":340,
 			"height":100,
 			"color":"3"
@@ -865,7 +865,7 @@
 			"fromNode":"56eb9f3d93f32d3e",
 			"fromSide":"bottom",
 			"toNode":"21ed5be5c50c6c1a",
-			"toSide":"left"
+			"toSide":"top"
 		},
 		{
 			"id":"e93223eb22015db5",
@@ -1200,16 +1200,17 @@
 			"fromNode":"56eb9f3d93f32d3e",
 			"fromSide":"right",
 			"toNode":"b4e4c92b62fd4209",
-			"toSide":"left"
+			"toSide":"bottom"
 		},
 		{
 			"id":"b099d9a834ca4635",
 			"styleAttributes":{},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"b4e4c92b62fd4209",
-			"fromSide":"right",
+			"fromSide":"top",
 			"toNode":"a3bff670c64841cd",
-			"toSide":"left"
+			"toSide":"bottom"
 		},
 		{
 			"id":"624c2263a9ab4cba",
@@ -1224,37 +1225,41 @@
 			"id":"5b7d9c669a7e430d",
 			"styleAttributes":{},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"b4e4c92b62fd4209",
-			"fromSide":"right",
+			"fromSide":"left",
 			"toNode":"b48adf93795e4241",
-			"toSide":"left"
+			"toSide":"bottom"
 		},
 		{
 			"id":"f2802e37c0a64b38",
 			"styleAttributes":{},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"56eb9f3d93f32d3e",
-			"fromSide":"right",
+			"fromSide":"top",
 			"toNode":"f3e76379f5704dd2",
-			"toSide":"left"
+			"toSide":"bottom"
 		},
 		{
 			"id":"0b8345f55ce54b43",
 			"styleAttributes":{},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"f3e76379f5704dd2",
-			"fromSide":"right",
+			"fromSide":"top",
 			"toNode":"b1abf5e2927c4427",
-			"toSide":"left"
+			"toSide":"right"
 		},
 		{
 			"id":"54bdecba326d4d30",
 			"styleAttributes":{},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"f3e76379f5704dd2",
-			"fromSide":"right",
+			"fromSide":"left",
 			"toNode":"d672750130334b17",
-			"toSide":"left"
+			"toSide":"right"
 		},
 		{
 			"id":"b2ab2ee559b74c56",
@@ -1263,7 +1268,7 @@
 			"fromNode":"f3e76379f5704dd2",
 			"fromSide":"right",
 			"toNode":"f48f02ade2c64fdd",
-			"toSide":"left"
+			"toSide":"right"
 		},
 		{
 			"id":"78fbbc6c6192469a",
