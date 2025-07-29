@@ -34,27 +34,6 @@
 			"color":"4"
 		},
 		{
-			"id":"2fabefd6d402848b",
-			"type":"text",
-			"text":"# privilege",
-			"styleAttributes":{"textAlign":"center"},
-			"x":310,
-			"y":-160,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"8dbb85e5656b5769",
-			"type":"text",
-			"text":"## debug",
-			"styleAttributes":{"shape":"pill","textAlign":"center"},
-			"x":820,
-			"y":-260,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"3138c1f26b2dab06",
 			"type":"text",
 			"text":"## ptc\n**Pass the ccache**",
@@ -636,28 +615,6 @@
 			"color":"3"
 		},
 		{
-			"id":"dbb0aa3242834d5f",
-			"type":"text",
-			"text":"## list\nList vault entries",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":2400,
-			"y":1400,
-			"width":340,
-			"height":100,
-			"color":"3"
-		},
-		{
-			"id":"1c3fe51ceeba48a7",
-			"type":"text",
-			"text":"## cred\nDump vault credentials",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":2400,
-			"y":1100,
-			"width":340,
-			"height":100,
-			"color":"3"
-		},
-		{
 			"id":"d2dbe0e306824dc8",
 			"type":"text",
 			"text":"## mstsc\nSpawn RDP client sessions",
@@ -746,17 +703,6 @@
 			"color":"3"
 		},
 		{
-			"id":"1c72d2364cda4bc5",
-			"type":"text",
-			"text":"# vault",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1300,
-			"y":1340,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
 			"id":"9591cfd08b17db42",
 			"type":"text",
 			"text":"## elevate",
@@ -810,6 +756,60 @@
 			"width":340,
 			"height":100,
 			"color":"3"
+		},
+		{
+			"id":"1c72d2364cda4bc5",
+			"type":"text",
+			"text":"# vault",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1300,
+			"y":1170,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"dbb0aa3242834d5f",
+			"type":"text",
+			"text":"## list\nList vault entries",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":1890,
+			"y":1550,
+			"width":340,
+			"height":100,
+			"color":"3"
+		},
+		{
+			"id":"1c3fe51ceeba48a7",
+			"type":"text",
+			"text":"## cred\nDump vault credentials",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":1890,
+			"y":1100,
+			"width":340,
+			"height":100,
+			"color":"3"
+		},
+		{
+			"id":"2fabefd6d402848b",
+			"type":"text",
+			"text":"# privilege",
+			"styleAttributes":{"textAlign":"center"},
+			"x":490,
+			"y":-130,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"8dbb85e5656b5769",
+			"type":"text",
+			"text":"## debug",
+			"styleAttributes":{"shape":"pill","textAlign":"center"},
+			"x":950,
+			"y":-230,
+			"width":260,
+			"height":60
 		}
 	],
 	"edges":[
