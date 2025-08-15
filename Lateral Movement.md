@@ -1,11 +1,7 @@
 ---
 tags:
   - lateral-movement
-cssclasses:
-  - LSASS
-  - MimiKatz
-  - OPTH
-  - DCSync
+cssclasses: []
 ---
 #### [Extracting Credentials](https://www.alteredsecurity.com/post/fantastic-windows-logon-types-and-where-to-find-credentials-in-them) from LSASS
 

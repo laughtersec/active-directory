@@ -1,9 +1,7 @@
 ---
 tags:
   - privesc
-cssclasses:
-  - PowerUpSQL
-  - MimiKatz
+cssclasses: []
 ---
 SQL Servers
 

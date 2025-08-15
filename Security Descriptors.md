@@ -1,11 +1,7 @@
 ---
 tags:
   - persistence
-cssclasses:
-  - persistence-using-ACLs
-  - RACE-toolkit
-  - WMI
-  - Registry
+cssclasses: []
 ---
 - It is possible to modify Security Descriptors (security information like Owner, primary group, D[[Access Control Model]], SACL) of multiple remote access methods (securable objects) to allow access to non-admin users
 - A very effective backdoor mechanism

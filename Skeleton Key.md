@@ -1,9 +1,7 @@
 ---
 tags:
   - persistence
-cssclasses:
-  - MimiKatz
-  - LSASS
+cssclasses: []
 ---
 - Patches the DC's LSASS process so that it allows access as any user with a single password.
 - Publicly knows methods are not persistent across reboots.

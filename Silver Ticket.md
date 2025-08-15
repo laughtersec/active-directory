@@ -1,13 +1,8 @@
 ---
 tags:
   - persistence
-aliases:
-  - AP-REQ
-  - Kerberos
+aliases: []
 cssclasses:
-  - MimiKatz
-  - Rubeus
-  - LDAP
 ---
 - A valid TGS
 - This deals with abusing AP-REQ

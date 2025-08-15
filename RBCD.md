@@ -1,12 +1,7 @@
 ---
 tags:
   - privesc
-cssclasses:
-  - Rubeus
-  - s4u
-  - MimiKatz
-  - ActiveDirectory
-  - Module
+cssclasses: []
 ---
 ![[Kerberos_Delegation.svg]]]
 - Resource Based [[Constrained Delegation]]

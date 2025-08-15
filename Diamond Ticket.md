@@ -1,8 +1,7 @@
 ---
 tags:
   - persistence
-cssclasses:
-  - Rubeus
+cssclasses: []
 ---
 - A diamond ticket is created by decrypting a valid TGT, making changes to it and re-encrypt it using the AES keys of the krbtgt account
 - This, like Golden Ticket, deals with abusing TGS-REQ

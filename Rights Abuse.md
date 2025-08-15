@@ -1,11 +1,7 @@
 ---
 tags:
   - persistence
-cssclasses:
-  - persistence-using-ACLs
-  - RACE-toolkit
-  - PowerView
-  - MimiKatz
+cssclasses: []
 aliases:
 ---
 This is a persistence mechanism, so it is assumed you have gained high privileges such as Domain Admin.
