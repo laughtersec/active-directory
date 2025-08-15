@@ -3,7 +3,7 @@ tags:
   - privesc
 cssclasses: []
 ---
-![[Kerberos_Delegation.svg]]]
+![[Kerberos_Delegation.svg]]
 - Resource Based [[Constrained Delegation]]
 - This moves delegation authority to the resource/service administrator
 - Instead of SPNs on `msDs-AllowedToDelegateTo` on the front-end service like the web service in this example, access in this case is controlled by security descriptor of `msDS-AllowedToActOnBehalfOfOtherIdentity` (visible as `PrincipalsAllowedToDelegateToAccount`) on the resource/service.
