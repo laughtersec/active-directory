@@ -1,14 +1,8 @@
 ---
 tags:
   - persistence
-aliases:
-  - TGS-REQ
-  - Kerberos
+aliases: []
 cssclasses:
-  - MimiKatz
-  - Rubeus
-  - DCSync
-  - LDAP
 ---
 - A golden ticket is signed and encrypted by the hash of the krbtgt account which makes it a valid TGT ticket.
 - This deals with abusing TGS-REQ 

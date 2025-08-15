@@ -1,9 +1,7 @@
 ---
 tags:
   - persistence
-cssclasses:
-  - MimiKatz
-  - Registry
+cssclasses: []
 ---
 - A Security Support Provider is a DLL which provides ways for an application to obtain an authenticated connection. Some SSP Packages by Microsoft are:
 	- NTLM

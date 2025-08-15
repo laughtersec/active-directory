@@ -1,10 +1,7 @@
 ---
 tags:
   - privesc
-cssclasses:
-  - MimiKatz
-  - LSASS
-  - Rubeus
+cssclasses: []
 ---
 #### Introduction
 

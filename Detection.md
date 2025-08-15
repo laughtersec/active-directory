@@ -1,9 +1,7 @@
 ---
 tags:
   - detection-and-defense
-cssclasses:
-  - LSASS
-  - Registry
+cssclasses: []
 ---
 ## By Event ID
 

@@ -1,11 +1,7 @@
 ---
 tags:
   - privesc
-cssclasses:
-  - Across-Trust
-  - MimiKatz
-  - DCSync
-  - WMI
+cssclasses: []
 ---
 ![[child_to_parent_trust_flow.svg]]
 1. Request TGT

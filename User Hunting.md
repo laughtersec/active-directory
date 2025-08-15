@@ -1,9 +1,7 @@
 ---
 tags:
   - domain-enumeration
-cssclasses:
-  - PowerView
-  - Invoke-SessionHunter
+cssclasses: []
 ---
 ```powershell title:"Find all machines on the current domain where the current user has local admin access"
 Find-LocalAdminAccess -Verbose

@@ -1,10 +1,7 @@
 ---
 tags:
   - privesc
-cssclasses:
-  - Certify
-  - Rubeus
-  - Across-Trust
+cssclasses: []
 ---
 #### Introduction
 - **Active Directory Certificate Services** (AD CS) enables use of Microsoft's own Public Key Infrastructure (PKI) in an active directory forest.

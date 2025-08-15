@@ -1,12 +1,7 @@
 ---
 tags:
   - detection-and-defense
-cssclasses:
-  - DCSync
-  - OPTH
-  - PTH
-  - Kerberoasting
-  - MimiKatz
+cssclasses: []
 ---
 - It identifies, detects and investigates advanced threats, compromised identities, and malicious insider actions directed at your organization
 - MDI sensors are installed on DCs and Federation servers. Analysis and alerting is done in the Azure cloud.

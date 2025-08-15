@@ -1,12 +1,7 @@
 ---
 tags:
   - persistence
-cssclasses:
-  - MimiKatz
-  - persistence-using-ACLs
-  - SDPROP
-  - PowerView
-  - RACE-toolkit
+cssclasses: []
 aliases:
 ---
 - Resides in the System container of a domain and used to control permissions - using an [[Access Control Model]] - for certain built-in privileged groups (called Protected Groups). 
