@@ -46,6 +46,8 @@ We can find domain users from our current foothold too.
 net user /domain
 ```
 
-```shell
-net user "domain.user"
+We can fetch its details too
+
+```shell title:"List details of a domain user"
+net user "domain.user" /domain
 ```
