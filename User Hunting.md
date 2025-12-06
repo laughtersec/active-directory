@@ -38,3 +38,14 @@ Invoke-SessionHunter -FailSafe
 Invoke-SessionHunter -NoPortScan -Targets C:\Path\To\servers.txt
 ```
 
+An over-reliance on automated tools is not the wisest choice.
+
+We can find domain users from our current foothold too.
+
+```shell title:"Find domain users"
+net user /domain
+```
+
+```shell
+net user "domain.user"
+```
