@@ -15,6 +15,7 @@ Or just use SharpHound.exe
 ```powershell title:"Make collection stealthy. Removes noisy collection methods like RDP,DCOM,PSRemote and LocalAdmin"
 Invoke-BloodHound -Stealth
 ```
+
 ```batch
 SharpHound.exe --Stealth
 ```
@@ -25,3 +26,9 @@ Invoke-BloodHound -ExcludeDCs
 
 - Run the collector on your foothold and a zip file will be generated
 - Import the zip file in BloodHound
+
+Of course there won't be times where we will have the luxury to upload things manually. Here is a linux tool for the same:
+
+```shell
+bloodhound-ce-python -d domain.com -u 'domain.user' -p 'itspassword' -dc fqdn.domain.com
+```
