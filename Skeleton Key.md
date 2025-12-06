@@ -22,7 +22,7 @@ mimikatz # misc::skeleton
 ```
 
 - Very noisy logs - Service installation (Kernel mode driver)
-- Might cause issues with [[AD CS]]
+- Might cause issues with [[active-directory/AD CS]]
 
 
 
