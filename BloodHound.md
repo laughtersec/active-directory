@@ -30,5 +30,7 @@ Invoke-BloodHound -ExcludeDCs
 Of course there won't be times where we will have the luxury to upload things manually. Here is a linux tool for the same:
 
 ```shell
-bloodhound-ce-python -d domain.com -u 'domain.user' -p 'itspassword' -dc fqdn.domain.com
+bloodhound-ce-python -d domain.com -u 'domain.user' -p 'itspassword' -dc dc01.domain.com -ns dc-ip -c All --zip
 ```
+
+[Bloodhound CE is the latest version used. ](https://www.kali.org/tools/bloodhound-ce-python/)
