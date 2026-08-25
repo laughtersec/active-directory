@@ -1,6 +1,8 @@
 ---
 tags:
   - defense
+title:
+  - Secure Local Administrators
 ---
 #### LAPS (Local Administrator Password Solution)
 - Centralized storage of passwords in AD with periodic randomizing where read permissions are access controlled.

@@ -1,7 +1,7 @@
 ---
 tags:
   - general
-aliases: 
+title: Kerberos
 cssclasses:
 ---
 ![[Kerberos.svg]]

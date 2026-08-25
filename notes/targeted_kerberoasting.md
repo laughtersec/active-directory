@@ -1,7 +1,8 @@
 ---
 tags:
   - privesc
-cssclasses: []
+title:
+  - Targeted Kerberoasting
 ---
 If a user's UAC setting has "Do not require Kerberos preauthentication" enabled i.e. Kerberos preauth is disabled, it is possible to grab user's crackable AS-REP and brute force it offline. With sufficient rights (`GenericWrite` or `GenericAll`), Kerberos preauth can be forced disabled as well.
 
@@ -37,7 +38,7 @@ john.exe --wordlist=C:\AD\Tools\kerberoast\10k-worst-pass.txt C:\AD\Tools\asreph
 #### Leveraging permissions to change a user's SPN
 
 - With enough rights (GenericAll/GenericWrite), a target user's SPN can be set to anything (unique in domain).
-- We can then request a TGS without special privileges. The TGS can then be [Kerberoasted](Kerberoasting.md).
+- We can then request a TGS without special privileges. The TGS can then be [Kerberoasted](kerberoasting.md).
 
 ```powershell title:"Enumerate the permissions for a group on ACLs using PowerView"
 Find-InterestingDomainAcl -ResolveGUIDs | ?{$_.IdentityReferenceName -match "groupname"}

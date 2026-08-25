@@ -1,7 +1,8 @@
 ---
 tags:
   - persistence
-cssclasses: []
+title:
+  - Security Descriptors
 ---
 - It is possible to modify Security Descriptors (security information like Owner, primary group, D[[access_control_model]], SACL) of multiple remote access methods (securable objects) to allow access to non-admin users
 - A very effective backdoor mechanism

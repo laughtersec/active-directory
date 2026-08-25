@@ -1,15 +1,16 @@
 ---
 tags:
   - detection-and-defense
-cssclasses: []
+title:
+  - MDI
 ---
 - It identifies, detects and investigates advanced threats, compromised identities, and malicious insider actions directed at your organization
 - MDI sensors are installed on DCs and Federation servers. Analysis and alerting is done in the Azure cloud.
 - MDI can be used for detecting
 	- Recon
-	- Compromised credentials (Brute-Force, [[Kerberoasting]] etc.)
+	- Compromised credentials (Brute-Force, [[kerberoasting]] etc.)
 	- Lateral Movement (PTH, OPTH etc.)
-	- Domain Dominance (DCSync, [[golden_ticket]], [[Skeleton Key]] etc.)
+	- Domain Dominance (DCSync, [[golden_ticket]], [[skeleton_key]] etc.)
 	- Exfiltration
 ## Bypass
 - The key is to avoid talking to the DC as long as possible and make the traffic that we generate appear benign.

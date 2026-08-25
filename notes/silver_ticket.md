@@ -1,7 +1,8 @@
 ---
 tags:
   - persistence
-aliases: []
+title:
+  - Silver Ticket
 cssclasses:
 ---
 - A valid TGS

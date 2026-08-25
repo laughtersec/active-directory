@@ -1,6 +1,7 @@
 ---
 tags:
   - defense
+title: Protect and Limit Domain Admins
 ---
 - Reduce the number of Domain Admins in your environment
 - Do not allow or limit login of DAs to any other machine other than the Domain Controllers. If logins to some servers is necessary, do not allow other administrators to login to that machine.

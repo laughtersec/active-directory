@@ -1,7 +1,8 @@
 ---
 tags:
   - persistence
-cssclasses: []
+title:
+  - Rights Abuse
 aliases:
 ---
 This is a persistence mechanism, so it is assumed you have gained high privileges such as Domain Admin.

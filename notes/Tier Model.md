@@ -1,6 +1,7 @@
 ---
 tags:
   - detection-and-defense
+title:
 ---
 #### Active Directory Administrative Tier Model
 - Composed of three levels only for administrative accounts:

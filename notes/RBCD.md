@@ -1,7 +1,8 @@
 ---
 tags:
   - privesc
-cssclasses: []
+title:
+  - RBCD
 ---
 ![[Kerberos_Delegation.svg]]
 - Resource Based [[constrained_delegation]]

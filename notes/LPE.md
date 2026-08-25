@@ -1,6 +1,8 @@
 ---
 tags:
   - local-privesc
+title:
+  - LPE
 ---
 There are various ways of locally escalating privileges on Windows
 
@@ -13,7 +15,7 @@ There are various ways of locally escalating privileges on Windows
 
 #### Tools for complete coverage:
 
-- [[PowerUp]] - https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc
+- [[powerup]] - https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc
 
 ```powershell title:"Usage"
 Invoke-AllChecks

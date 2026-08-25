@@ -1,6 +1,7 @@
 ---
 tags:
   - general
+title: Methodology
 ---
 ![[methodology.svg ]]
 

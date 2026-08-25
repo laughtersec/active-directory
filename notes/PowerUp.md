@@ -1,9 +1,9 @@
 ---
 tags:
   - local-privesc
-cssclasses:
+title: PowerUp
 ---
- [[PowerShell]] LPE Module
+ [[powershell]] LPE Module
 #### Services issues using PowerUp
 
 ```powershell title:"Get services with unquoted paths and a space in their name"

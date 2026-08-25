@@ -1,7 +1,7 @@
 ---
 tags:
   - privesc
-cssclasses:
+title: Kerberos Delegation
 ---
 - Kerberos Delegation allows to "reuse the end-user credentials to access resources hosted on a different server".
 - This is typically useful in multi-tier service or applications where Kerberos Double Hop is required.

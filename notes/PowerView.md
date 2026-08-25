@@ -1,8 +1,9 @@
 ---
 tags:
   - domain-enumeration
+title: PowerView
 ---
-[[PowerShell]] on steroids: 
+[[powershell]] on steroids: 
 
 [Documentation](https://powersploit.readthedocs.io/en/latest/)
 

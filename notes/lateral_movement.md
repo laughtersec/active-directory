@@ -1,7 +1,8 @@
 ---
 tags:
   - lateral-movement
-cssclasses: []
+title:
+  - Lateral Movement
 ---
 #### [Extracting Credentials](https://www.alteredsecurity.com/post/fantastic-windows-logon-types-and-where-to-find-credentials-in-them) from LSASS
 

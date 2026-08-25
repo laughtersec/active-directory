@@ -1,9 +1,9 @@
 ---
 tags:
   - lateral-movement
-cssclasses:
+title: PowerShell Remoting
 ---
-#### Connect to remote hosts using [[PowerShell]]
+#### Connect to remote hosts using [[powershell]]
 
 - More silent and faster than psexec
 - [PSRemoting](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/08-powershell-remoting?view=powershell-7.4&viewFallbackFrom=powershell-7.3) uses Windows Remote Management (WinRM) which is Microsoft's implementation of WS-Management

@@ -14,7 +14,7 @@ title:
 Get-WinEvent -Filterhashtable @{Logname='Security';ID=4672} -MaxEvents 1 | Format-List -Property *
 ```
 
-#### [[Silver Ticket]]
+#### [[silver_ticket]]
 - 4624: Account Logon
 - 4634: Account Logoff
 - 4672: Admin Logon
@@ -23,7 +23,7 @@ Get-WinEvent -Filterhashtable @{Logname='Security';ID=4672} -MaxEvents 1 | Forma
 Get-WinEvent -Filterhashtable @{Logname='Security';ID=4672} -MaxEvents 1 | Format-List -Property *
 ```
 
-#### [[Skeleton Key]]
+#### [[skeleton_key]]
 ##### Events
 - System Event ID 7045 - A service was installed on the system. (Type Kernel Mode driver)
 ##### Events ("Audit privilege use" must be enabled)
@@ -55,7 +55,7 @@ Get-WinEvent -FilterHashTable @{Logname='System';ID=12} | ?{$_.message -like "*p
 #### [[custom_ssp]]
 - 4657 - Audit creation/change of `HKLM:\System\CurrentControlSet\Control\Lsa\SecurityPackages`
 
-#### [[Kerberoasting]]
+#### [[kerberoasting]]
 ##### Events
 - 4769 - A Kerberos ticket was requested
 
