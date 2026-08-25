@@ -1,7 +1,8 @@
 ---
 tags:
   - privesc
-cssclasses: []
+title:
+  - Unconstrained Delegation
 ---
 #### Introduction
 

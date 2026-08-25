@@ -1,7 +1,8 @@
 ---
 tags:
   - privesc
-cssclasses: []
+title:
+  - Trust Abuse
 ---
 SQL Servers
 

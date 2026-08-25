@@ -18,7 +18,7 @@ title: Kerberos Delegation
 
 There are two types of Kerberos Delegation:
 
-- General/Basic or [[Unconstrained Delegation]] - allows the first hop server (web server in our example) to request access to any service on any computer in the domain.
+- General/Basic or [[unconstrained_delegation]] - allows the first hop server (web server in our example) to request access to any service on any computer in the domain.
 - [[constrained_delegation]] - allows the first hop server (web server in our example) to request access only to specified services on specified computers. If the user is not using Kerberos authenticate to the first hop server, Windows offers Protocol Transition to transition the request to Kerberos.
 
 *In both types of delegations, a mechanism is required to impersonate the incoming user and authenticate to the second hop server (database server in our example) as the user.*

@@ -1,7 +1,8 @@
 ---
 tags:
   - domain-enumeration
-cssclasses: []
+title:
+  - User Hunting
 ---
 ```powershell title:"Find all machines on the current domain where the current user has local admin access"
 Find-LocalAdminAccess -Verbose

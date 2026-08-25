@@ -1,6 +1,8 @@
 ---
 tags:
   - defense
+title:
+  - Time Bound Administration
 ---
 #### JIT
 - Just In Time administration provides the ability to grant time-bound administrative access on per-request basis.

@@ -2,6 +2,8 @@
 tags:
   - domain-enumeration
   - general
+title:
+  - Trusts
 ---
 - A relationship between two domains or forests which allows users of one domain or forest to access resources in the other domain or forest.
 - Trust can be automatic or established (forest, external)
