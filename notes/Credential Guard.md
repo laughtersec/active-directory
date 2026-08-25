@@ -1,7 +1,6 @@
 ---
 tags:
   - detection-and-defense
-cssclasses: []
 ---
 - [Credential Guard](https://learn.microsoft.com/en-us/windows/security/identity-protection/credential-guard/) uses virtualization-based security to isolate secrets so that only privileged system software can access them.
 - Effective in stopping PTH and Over-PTH attacks by restricting access to NTLM hashes and TGTs. It is not possible to write Kerberos tickets to memory even if we have credentials.
