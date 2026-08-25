@@ -4,7 +4,7 @@ tags:
 cssclasses: []
 ---
 - [Offline cracking of service account passwords.](https://www.redsiege.com/wp-content/uploads/2020/08/Kerberoastv4.pdf)
-- The [[Kerberos]] session ticket (TGS) has a server portion which is encrypted with the password hash of service account. This makes it possible to request a ticket and do offline password attack.
+- The [[active-directory/notes/Kerberos]] session ticket (TGS) has a server portion which is encrypted with the password hash of service account. This makes it possible to request a ticket and do offline password attack.
 - Because (non-machine) service account passwords are not frequently changed, this is a good attack vector.
 - An important point to note is that we need a service ticket that is encrypted with an NTLM hash (RC4) and not AES, which uses a salt. Bruteforcing the AES key would be extremely difficult.
 - The DC will, however, oblige to the client's requests of using a ticket with downgraded encryption. Unless RC4 is disabled throughout the forest.

@@ -10,7 +10,7 @@ cssclasses: []
 	- Service for User to Proxy (S4U2proxy) - Allows a service to obtain a TGS to a second service on behalf of a user. Which second service is controlled by msDS-AllowedToDelegateTo attribute. This attribute contains a list of SPNs to which the user tokens can be forwarded to.
 
 ![[Constrained_Delegation.svg]]
-1. A user authenticates to the web service (running with a service account) using a non-[[Kerberos]] compatible authentication mechanism
+1. A user authenticates to the web service (running with a service account) using a non-[[active-directory/notes/Kerberos]] compatible authentication mechanism
 2. The web service requests a ticket from the KDC for the user's account without supplying a password, as the service account
 3. The KDC checks the service account's userAccountControl value for the TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION attribute, and that the user's account is not blocked for delegation. If OK, it returns a forwardable ticket for the user's account (S4U2Self)
 4. The service then passes this ticket back to the KDC and requests a service ticket for the `CIFS/computer-name-domain-name-fqdn` service
