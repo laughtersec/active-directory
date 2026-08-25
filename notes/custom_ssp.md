@@ -1,7 +1,8 @@
 ---
 tags:
   - persistence
-cssclasses: []
+title:
+  - Custom SSP
 ---
 - A Security Support Provider is a DLL which provides ways for an application to obtain an authenticated connection. Some SSP Packages by Microsoft are:
 	- NTLM

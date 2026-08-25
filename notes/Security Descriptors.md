@@ -3,7 +3,7 @@ tags:
   - persistence
 cssclasses: []
 ---
-- It is possible to modify Security Descriptors (security information like Owner, primary group, D[[Access Control Model]], SACL) of multiple remote access methods (securable objects) to allow access to non-admin users
+- It is possible to modify Security Descriptors (security information like Owner, primary group, D[[access_control_model]], SACL) of multiple remote access methods (securable objects) to allow access to non-admin users
 - A very effective backdoor mechanism
 - Security Descriptor Definition Language (SDDL) defines the format which is used to describe a security descriptor. SDDL uses ACE strings for DACL and SACL:
 	`ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid`

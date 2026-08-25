@@ -1,12 +1,12 @@
 ---
 tags:
   - defense
-cssclasses:
+title: Defense
 ---
 - System-wide transcription
 - Script-Block logging
 - AntiMalware Scan Interface (AMSI)
-- Constrained Language Mode (CLM) integrated with AppLocker WDAC ([[Device Guard]])
+- Constrained Language Mode (CLM) integrated with AppLocker WDAC ([[device_guard]])
 ### Trust Tickets
 ##### SID Filtering
 - Avoid attacks which abuse SID history
@@ -29,7 +29,7 @@ cssclasses:
 Create-DecoyUser -UserFirstName user -UserLastName manager -Password Pass@123 | Deploy-UserDeception -UserFlag PasswordNeverExpires -GUID d07da11f-8a3d-42b6b0aa-76c962be719a -Verbose
 ```
 
-This property is not read by net.exe, WMI classes (like Win32_UserAccount) and [[ActiveDirectory Module]]. But LDAP based tools like PowerView and ADExplorer trigger the logging.
+This property is not read by net.exe, WMI classes (like Win32_UserAccount) and [[active_directory_module]]. But LDAP based tools like PowerView and ADExplorer trigger the logging.
 
 ```powershell title:"Create a decoy user and make it a mamber of the Domain Admins group. As a protection against potential abuse, deny logon to the user on any machine"
 Create-DecoyUser -UserFirstName dec -UserLastName da -Password Pass@123 | Deploy-PrivilegedUserDeception -Technique DomainAdminsMembership -Protection DenyLogon -Verbose

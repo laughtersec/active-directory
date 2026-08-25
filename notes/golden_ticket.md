@@ -1,7 +1,8 @@
 ---
 tags:
   - persistence
-aliases: []
+title:
+  - Golden Ticket
 cssclasses:
 ---
 - A golden ticket is signed and encrypted by the hash of the krbtgt account which makes it a valid TGT ticket.

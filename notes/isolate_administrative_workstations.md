@@ -1,6 +1,7 @@
 ---
 tags:
   - defense
+title: Isolate Administrative Workstations
 ---
 #### Privileged Administrative Workstations (PAWs)
 - A hardened workstation for performing sensitive tasks like administration of domain controllers, cloud infrastructure, sensitive business functions etc.

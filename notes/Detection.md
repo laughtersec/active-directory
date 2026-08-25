@@ -1,11 +1,12 @@
 ---
 tags:
   - detection-and-defense
-cssclasses: []
+title:
+  - Detection
 ---
 ## By Event ID
 
-#### [[Golden Ticket]]
+#### [[golden_ticket]]
 - 4624: Account Logon
 - 4672: Admin Logon
 
@@ -48,10 +49,10 @@ New-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\ -Name RunAsPPL -Val
 Get-WinEvent -FilterHashTable @{Logname='System';ID=12} | ?{$_.message -like "*protected process*"}
 ```
 
-#### [[DSRM]]
+#### [[dsrm]]
 - 4657 - Audit creation/change of `HKLM:\System\CurrentControlSet\Control\Lsa\DsrmAdminLogonBehavior`
 
-#### [[Custom SSP]]
+#### [[custom_ssp]]
 - 4657 - Audit creation/change of `HKLM:\System\CurrentControlSet\Control\Lsa\SecurityPackages`
 
 #### [[Kerberoasting]]

@@ -1,7 +1,8 @@
 ---
 tags:
   - privesc
-cssclasses: []
+title:
+  - Kerberoasting
 ---
 - [Offline cracking of service account passwords.](https://www.redsiege.com/wp-content/uploads/2020/08/Kerberoastv4.pdf)
 - The [[active-directory/notes/Kerberos]] session ticket (TGS) has a server portion which is encrypted with the password hash of service account. This makes it possible to request a ticket and do offline password attack.

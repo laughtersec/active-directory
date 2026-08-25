@@ -1,7 +1,8 @@
 ---
 tags:
   - detection-and-defense
-cssclasses:
+title:
+  - Device Guard
 ---
 - [Windows Defender Application Control](https://learn.microsoft.com/en-us/windows/security/identity-protection/credential-guard/) (WDAC) is a group of features designed to harden a system against malware attacks. Its focus is preventing malicious code from running by ensuring only known good code can run.
 - Primary components -

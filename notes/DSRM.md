@@ -1,7 +1,8 @@
 ---
 tags:
   - persistence
-cssclasses: []
+title:
+  - DSRM
 ---
 - Directory Services Restore Mode
 - There is a local administrator on every DC called "Administrator" whose password is the DSRM password.

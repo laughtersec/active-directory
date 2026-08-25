@@ -1,7 +1,8 @@
 ---
 tags:
   - privesc
-cssclasses: []
+title:
+  - Child To Parent
 ---
 ![[child_to_parent_trust_flow.svg]]
 1. Request TGT

@@ -1,8 +1,9 @@
 ---
 tags:
   - domain-enumeration
+title: ActiveDirectory Module
 ---
-The default [[PowerShell]] module for enumerating objects in [[Active Directory]]
+The default [[PowerShell]] module for enumerating objects in [[active_directory]]
 
 ```powershell title:"Importing"
 . .\Microsoft.ActiveDirectory.Management.dll

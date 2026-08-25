@@ -1,7 +1,7 @@
 ---
 tags:
   - detection-and-defense
-cssclasses:
+title: ESAE
 ---
 ## Enhanced Security Admin Environment
 ![[ESAE.svg]]

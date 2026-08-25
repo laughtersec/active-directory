@@ -1,10 +1,11 @@
 ---
 tags:
   - persistence
-cssclasses: []
+title:
+  - AdminSDHolder
 aliases:
 ---
-- Resides in the System container of a domain and used to control permissions - using an [[Access Control Model]] - for certain built-in privileged groups (called Protected Groups). 
+- Resides in the System container of a domain and used to control permissions - using an [[access_control_model]] - for certain built-in privileged groups (called Protected Groups). 
 - Security Descriptor Propagator (SDPROP) runs every hour and compares the ACL of protected groups and members with the ACL of AdminSDHolder and any differences are overwritten on the object ACL.
 
 | List of Protected Groups     |

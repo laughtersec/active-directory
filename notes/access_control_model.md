@@ -1,7 +1,7 @@
 ---
 tags:
   - general
-cssclasses:
+title: Access Control Model
 ---
 #### [Access Control Model](https://learn.microsoft.com/en-us/windows/win32/secauthz/access-control-model)
 

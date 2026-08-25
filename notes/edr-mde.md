@@ -1,6 +1,7 @@
 ---
 tags:
   - detection-and-defense
+title: EDR-MDE
 ---
 - Endpoint Detection and Response (EDRs) system protects individual devices (endpoints) by continuously monitoring for and responding to security threats.
 - It includes features for threat detection, incident response, investigation, and forensics, making it a vital component of modern cybersecurity strategies.

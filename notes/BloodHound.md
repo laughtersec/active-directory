@@ -1,6 +1,7 @@
 ---
 tags:
   - domain-enumeration
+title: BloodHound
 ---
 BloodHound Legacy: https://github.com/BloodHoundAD/BloodHound
 BloodHound CE (Community Edition): https://github.com/SpecterOps/BloodHound
